@@ -23,16 +23,20 @@ footer{
     word-spacing: 30px;
     margin-left: 20px;
 }
-
+main a{
+    border: solid green 5px;
+    background-color: greenyellow;
+    padding: 3px;
+}
 p{
     font-size: 20px;
 }
-ul{
-    font-size: 20px;
+main a:hover{
+    color: white;
 }
 header a:hover{
     color: white;
 }
-b:hover{
-    color: red;
+header{
+    color: black;
 }
